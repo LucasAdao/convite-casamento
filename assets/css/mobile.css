@@ -106,6 +106,10 @@ body {
     color: #23529b;
     margin-bottom: 4%;
 }
+a{
+    border:none;
+    outline: none;
+}
 
 .versiculo p {
     padding: 5px;
