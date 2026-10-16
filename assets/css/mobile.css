@@ -116,7 +116,13 @@ body {
 
 .bencao {
     text-align: center;
-    margin-bottom: 4%;
+    margin-bottom: 6%;
+    border: 1px solid #23529b;
+    margin-right: 4%;
+    margin-left: 2%;
+    background-color: #f1f2ff;
+    margin-right:8%;
+    margin-left: 4%;
 }
 
 .bencao p {
@@ -127,38 +133,70 @@ body {
     color: #23529b;
 }
 
-.pais-name {
-    width: 100%;
-    height: 200px;
-    display: flex;
-    flex-direction: row;
+.name-box-2 {
+    margin-bottom: 4%;
 }
 
-.pais-name div {
-    width: 50%;
-    height: 20%;
+.name-box-2 p {
+    font-family: "Petit Formal Script", cursive;
+    color: #23529b;
+    font-style: italic;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    font-size: 32px;
+    font-weight: 1000;
 }
 
-.pais-name-primeiro {
-    border-right: 2.5px solid #23529b;
+.name-box-2 span {
+    color: #67a3b1;
+    font-family: "Italianno", cursive;
+    font-size: 50px;
 }
-
-.pais-name p {
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 4px;
-}
-
 .bloco-2 {
     background-color: #f2f2f2;
     width: 100%;
     height: 600px;
 }
+.data{
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: #23529b;
+    border: 1px solid #67a3b1;
+}
+.map-location{
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 4%;
+}
+.map-location button{
+    background-color: #f8fafa;
+    border: 1px solid #23529b;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.local-img{
+    width: 80%;
+    height: 200px;
+    border: 1px solid #23529b;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 4%;
+}
+
+.local-img img{
+    width: 100%;
+    height: 100%;
+}
+.location-cerimonia{
+
+}
+
 
 /*   font-family: "Petit Formal Script", cursive;
     color: #23529b;
