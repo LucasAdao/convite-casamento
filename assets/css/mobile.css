@@ -197,22 +197,13 @@ a{
     width: 100%;
     height: 100%;
 }
-.location-cerimonia{
-
-}
 
 .calendario{
     width: 100%;
-    height: 300px;
 }
 
 .calendario img{
-    width: 90%;
-    margin-left: 8%;
+    width: 100%;
+    margin-left: 1%;
 }
 
-/*   font-family: "Petit Formal Script", cursive;
-    color: #23529b;
-    font-style: normal;
-    text-align: center;
-    font-size: 22px; */
